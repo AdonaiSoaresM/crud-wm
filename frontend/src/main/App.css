@@ -1,5 +1,5 @@
 :root {
-    --bg-darkk: #1a2f3a;
+    --bg-dark: #1a2f3a;
     --logo-height: 100px;
     --header-height: 100px;
     --aside-width: 255px;
@@ -7,12 +7,14 @@
 
     --shadow:
         0 2px 23px 0 rgba(0, 0, 0, 0.1),
+        0 2px 49px 0 rgba(0,0,0,0.06);
 
 }
 
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat', 'sans-serif';
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-weight: bolder; */
 }
 
 .app {
@@ -27,7 +29,7 @@
         'menu content'
         'menu footer';
     height: 100vh;
-    background-color: #f5f5f5;
+    background-color: #f5f5f564;
 
 }
 
