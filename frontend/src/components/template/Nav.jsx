@@ -1,14 +1,11 @@
 import './Nav.css'
+import NavItem from './NavItem'
 
 const Nav = props => 
     <aside className='menu-area'>
         <nav className="menu">
-            <a href="#/">
-                <i className="fa fa-home"></i> Início
-            </a>
-            <a href="#/users">
-                <i className="fa fa-users"></i> Usuários
-            </a>
+            <NavItem icon='home' label='Início' href='/'/>
+            <NavItem icon='users' label='Usuários' href='/users'/>
         </nav>
     </aside>
 
