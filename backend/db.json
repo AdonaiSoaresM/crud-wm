@@ -1,14 +1,19 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Arthur Oliveiro",
-      "email": "aoliveira@cod3r.com.br"
+      "name": "Adonai Soares",
+      "email": "adonae@hotmail.com",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Maria Julia da Silvae",
-      "email": "mjds@empresa.comc"
+      "name": "Luiz Gulervar",
+      "email": "Luiz@hotmail.com",
+      "id": 2
+    },
+    {
+      "name": "Fabiana Amorim",
+      "email": "Fabi@claro.com.br",
+      "id": 3
     }
   ]
 }
